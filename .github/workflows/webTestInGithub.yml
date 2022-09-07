@@ -26,5 +26,5 @@ jobs:
 
       - name: Run the tests
         run: 
-            mvn clean test -Pweb
+            mvn clean test -Pweb -Dusername=Dheeraj -Dpassword=Pass@123
           
